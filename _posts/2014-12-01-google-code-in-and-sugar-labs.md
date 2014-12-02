@@ -25,6 +25,10 @@ I ended up choosing Sugar Labs for my organization for the following reasons:
 * I want to put myself out of my comfort zone without biting off more than I could chew.
 * (Although this applies to all of the organizations) I want to gain experience working on a large open source project.
 
+![Sugar Labs Learning Platform](https://www.sugarlabs.org/assets/gallery_image_02.png)
+
+*[Sugar Labs Learning Platform Screenshot](https://www.sugarlabs.org/index.php?template=gallery&page=media_02) Creative Commons Sugar Labs*
+
 Overall, I am very excited to start completing tasks for this great organization.
 
 ### What I Hope to Learn
