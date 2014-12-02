@@ -11,7 +11,7 @@ title:            'BLOG'
 tagline:          'Davis Blog'
 description:      'Hey! I&#39;m <a href="http://daviskr.com/">Davis</a>, and this is my blog!'
 url:              http://daviskr.com/blog/
-baseurl:          /
+baseurl:          /blog 
 
 author:
   name:           'Davis Robertson'
