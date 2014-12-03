@@ -42,3 +42,5 @@ As for my mentors, I would love to improve my programming skills through them. I
 Anyways, I will be sure to post updates here over the duration of the event.
 
 ~_Davis Robertson_
+
+_Licensed Under [Creative Commons BY 4.0](http://creativecommons.org/licenses/by/4.0/)._
