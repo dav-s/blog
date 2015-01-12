@@ -21,7 +21,7 @@ To complete a task, here is my current workflow:
 
 4. **Program:** This is the meat of the challenge! I program using [IntelliJ](https://www.jetbrains.com/idea/) using the Python plugin (which is really just [PyCharm](https://www.jetbrains.com/pycharm/)). While I am programming, I am mindful of adhering to the coding style and rules of the project. `flake8` is used to check these conventions. This is a constant battle between adding new code, testing it, discussing on the IRC, and the repetition of these until the task is completed.
 
-5. **Send a Patch to Gerrit:** [Gerrit](https://code.google.com/p/gerrit/) is used to submit patches and do code reviews with git (a version control system). Gerrit uses [git-review](http://www.mediawiki.org/wiki/Gerrit/git-review), a Python commandline tool, to submit patches. Before committing, you must first run `git commit -s` to set it in the correct format. After committing the code with an appropriate commit message, it is time to `git review -R` which submits your code for review (`#pywikibot` channel recieves updates from Phabricator and Gerrit on changes relating to Pywikibot). Next Jekins reviews your format-wise to make sure it matches the conventions of the code. If this passes, you wait for a human to review your code and add comments. After you read the comments, make the neccessary changes and repeat steps 3-4 and then `git commit --amend` and then another `git review -R`. Hopefully at the end, your changes are accepted and merged and pass [TravisCI](https://travis-ci.org/wikimedia/pywikibot-core/).
+5. **Send a Patch to Gerrit:** [Gerrit](https://code.google.com/p/gerrit/) is used to submit patches and do code reviews with git (a version control system). Gerrit uses [git-review](http://www.mediawiki.org/wiki/Gerrit/git-review), a Python commandline tool, to submit patches. Before committing, you must first run `git commit -s` to set it in the correct format. After committing the code with an appropriate commit message, it is time to `git review -R` which submits your code for review (`#pywikibot` channel receives updates from Phabricator and Gerrit on changes relating to Pywikibot). Next Jenkins reviews your format-wise to make sure it matches the conventions of the code. If this passes, you wait for a human to review your code and add comments. After you read the comments, make the necessary changes and repeat steps 3-4 and then `git commit --amend` and then another `git review -R`. Hopefully at the end, your changes are accepted and merged and pass [TravisCI](https://travis-ci.org/wikimedia/pywikibot-core/).
 
 6. **Mark Done on Melange:** When you are all finished, you are ready to mark your task as done on Melange! After this you wait for somebody to judge your work. If it still needs work, you will be notified and will need to repeat steps 3-5 until satisfactory. Make sure to submit before your task time ends (I had a particularly difficult time with this part `:)`)!
 
@@ -29,17 +29,17 @@ If you follow these steps, you should complete a task with no difficulty at all.
 
 ## My Projects
 
-So far, I have completed 5 tasks (4 of which are for Wikimedia). As said earlier, I had a blast doing these and would reccomend to anyone to do this next year. Below are the Wikimedia tasks I have completed thus far.
+So far, I have completed 5 tasks (4 of which are for Wikimedia). As said earlier, I had a blast doing these and would recommend to anyone to do this next year. Below are the Wikimedia tasks I have completed thus far.
 
 ### Logo For European Hackathon
 
 This was my first task I completed for Wikimedia and had a great time doing it. The objective was to create an SVG logo for this year's European Wikimedia Hackathon, held this year in Lyon, France. For this, I decided on using [Adobe Illustrator](http://www.adobe.com/products/illustrator.html) (which I had purchased previously), however tools like [Inkscape](https://inkscape.org/en/) work perfectly as well. I ended up creating two logos for this task:
 
-![Eiffel Tower European Wikimedia Hackathon](https://upload.wikimedia.org/wikipedia/commons/1/14/European_Wiki_Hackathon_Tower_%28Text_Paths%29.svg)
+![Eiffel Tower European Wikimedia Hackathon](https://upload.wikimedia.org/wikipedia/commons/1/14/European_Wiki_Hackathon_Tower_(Text_Paths).svg)
 
 This Eiffel Tower logo is the first one that I worked on. This logo is influenced heavily by [Wikimedia's logo](http://commons.wikimedia.org/wiki/File:Wikimedia-logo.svg), except it is flipped upside-down, rearranged, and has the Eiffel Tower incorporated into it. The colors taken from both logos are extracted from the Wikimedia logo as well. This one is my favorite of the two, however I unfortunately created this before I learned that the contest would be held in Lyon and not Paris. Oh well.
 
-![Cube European Wikimedia Hackathon](https://upload.wikimedia.org/wikipedia/commons/b/bc/European_Wiki_Hackathon_Cube_%28Text_Paths%29.svg)
+![Cube European Wikimedia Hackathon](https://upload.wikimedia.org/wikipedia/commons/b/bc/European_Wiki_Hackathon_Cube_(Text_Paths).svg)
 
 Above is the second design I created, focusing on a modern-ish, geometric design. This one was very interesting to make because it was very math-based. The creation consisted of shearing/skewing the objects by certain values and rotating them along 45&deg; angles to create an isomorphic view.
 
@@ -49,13 +49,13 @@ As mentioned earlier, the event is going to be held in Lyon and not Paris, so I 
 
 The next task I worked on was creating a video tutorial showing how to use the previously mentioned Phabricator profile page.
 
-<iframe src="https://commons.wikimedia.org/wiki/File%3APhabricator_User-Page_Screencast.ogg?embedplayer=yes" width="500" height="281.25" frameborder="0" >Phabricator Tutorial</iframe>
+<iframe src="https://commons.wikimedia.org/wiki/File:Phabricator_User-Page_Screencast.ogg?embedplayer=yes" width="500" height="281.25" frameborder="0" >Phabricator Tutorial</iframe>
 
-What you did not see was the near a million re-takes I had to record to get the video to my liking! The hardest part was not messing up and fitting all of the content into the advised 1 minute length. I captured the video using [Fraps](http://www.fraps.com/), however I would reccomend not using this proprietary software. After recording I converted it into the free [Ogg audio video format](http://en.wikipedia.org/wiki/Ogg) using [VLC](http://www.videolan.org/vlc/index.html).
+What you did not see was the near a million re-takes I had to record to get the video to my liking! The hardest part was not messing up and fitting all of the content into the advised 1 minute length. I captured the video using [Fraps](http://www.fraps.com/), however I would not recommend this proprietary software. After recording I converted it into the free [Ogg audio video format](http://en.wikipedia.org/wiki/Ogg) using [VLC](http://www.videolan.org/vlc/index.html).
 
 ### Porting Code for Pywikibot
 
-This is the task that pushed me to take the plunge to actually write code for an open-source project (other than my own). For this task, I was assigned to port some code over from `pywikibot-compat` to `pywikibot-core`. Before you get to confused, let me explain. [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) is a super awesome Python library to interact with wikis, such as Wikipedia.
+This is the task that pushed me to take the plunge to actually write code for an open-source project (other than my own). For this task, I was assigned to port some code over from `pywikibot-compat` to `pywikibot-core`. Before you get too confused, let me explain. [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) is a super awesome Python library to interact with wikis, such as Wikipedia.
 
 **For example:** Let's say you have a wiki all about penguins (we'll call it Pengwiki) and the news just broke that the Emperor Penguin's feet were renamed to 'Royal Flippers'! Oh no! It would take a substantial amount of time to rename all instances of 'foot' or 'feet' in the Emperor Penguin page. However, Pywikibot comes to the rescue! You can easily write a script using the Pywikibot module to do this in a few minutes! This also might accomplished with using an existing script. Other awesome things can done with much ease, such as categorizing all the pictures in the 'Emperor Penguin' category to the 'Royal' category as well.
 
