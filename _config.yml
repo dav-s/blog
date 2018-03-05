@@ -1,10 +1,9 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+permalink: pretty
 
 # Setup
 title:            'BLOG'
@@ -23,7 +22,7 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/epicdavi/blog/
+  repo:           https://github.com/dav-s/blog/
   gravatar:       "https://avatars3.githubusercontent.com/u/3261707?s=300"
 
 gaid:             UA-50584050-1
